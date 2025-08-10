@@ -30,8 +30,8 @@ GuestHeaven is  a full-stack web application for exploring, creating, editing, a
 
 ## Installation
 #### 1️⃣ Clone the repository
-git clone https://github.com/yourusername/GuestHeaven.git
-cd GuestHeaven
+- git clone https://github.com/yourusername/GuestHeaven.git
+- cd GuestHeaven
 
 #### 2️⃣ Install dependencies
 npm install
