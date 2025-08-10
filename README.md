@@ -55,20 +55,22 @@ npm start
 
 ## 📡 API Routes
 ### 📍 Listings
+
+#### Method     	Endpoint	        Description             Auth Required
 ```
-#### Method	Endpoint	Description	Auth Required
-GET	/listings	View all listings	No
-GET	/listings/:id	View single listing	No
-POST	/listings	Create new listing	Yes
-PUT	/listings/:id	Update listing	Yes
-DELETE	/listings/:id	Delete listing	Yes
+     GET	      /listings  	       View all listings   	   No
+     GET	      /listings/:id	     View single listing	    No
+     POST	     /listings	         Create new listing	     Yes
+     PUT      	/listings/:id	     Update listing	         Yes
+     DELETE	   /listings/:id     	Delete listing	         Yes
 ```
 
 ### 📝 Reviews
+
+#### Method	        Endpoint	                     Description	     Auth Required
 ```
-#### Method	Endpoint	Description	Auth Required
-POST	/listings/:id/reviews	Add review	Yes
-DELETE	/listings/:id/reviews/:reviewId	Delete review	Yes
+     POST	      /listings/:id/reviews     	       Add review	      Yes
+     DELETE	    /listings/:id/reviews/:reviewId	  Delete review  	 Yes
 ```
 
 ## Project Structure
