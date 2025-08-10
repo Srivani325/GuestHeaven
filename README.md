@@ -65,11 +65,10 @@ npm start
 
 
 ### 📝 Reviews
-```
-Method	   Endpoint	                      Description	     Auth Required
-POST	       /listings/:id/reviews     	       Add review	     Yes
-DELETE	  /listings/:id/reviews/:reviewId	  Delete review  	Yes
-```
+| Method  | Endpoint                         | Description          | Auth Required |
+|---------|------------------------------    |----------------------|---------------|
+| POST    |  /listings/:id/reviews           | View all listings    | No            |
+| GET     | /listings/:id/reviews/:reviewId	 | Delete Review        | No            |
 
 ## Project Structure
 ```
