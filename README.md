@@ -55,7 +55,8 @@ npm start
 
 ## 📡 API Routes
 ### 📍 Listings
-```  Method    Endpoint	            Description              Auth Required
+```
+     Method    Endpoint	            Description              Auth Required
      GET	     /listings  	       View all listings   	  No
      GET	     /listings/:id	       View single listing	  No
      POST	     /listings	            Create new listing	  Yes
@@ -65,7 +66,7 @@ npm start
 
 ### 📝 Reviews
 ```
-#### Method	   Endpoint	                      Description	     Auth Required
+     Method	   Endpoint	                      Description	     Auth Required
      POST	       /listings/:id/reviews     	       Add review	     Yes
      DELETE	  /listings/:id/reviews/:reviewId	  Delete review  	Yes
 ```
