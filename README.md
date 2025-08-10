@@ -36,7 +36,7 @@ cd GuestHeaven
 #### 2️⃣ Install dependencies
 npm install
 
-####3️⃣ Set up environment variables
+#### 3️⃣ Set up environment variables
 Create a .env file in the root directory and add:
 - IMAGEBB_URL=your_imageBB_api_key
 - ATLAS_URL=your_mongodb_connection_string
