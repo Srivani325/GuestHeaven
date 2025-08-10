@@ -68,6 +68,7 @@ POST	/listings/:id/reviews	Add review	Yes
 DELETE	/listings/:id/reviews/:reviewId	Delete review	Yes
 
 ## Project Structure
+```
 GuestHeaven/
 ├── controllers/             # Controller logic for routes
 │   ├── listings.js
