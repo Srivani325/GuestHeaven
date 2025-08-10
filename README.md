@@ -55,17 +55,21 @@ npm start
 
 ## 📡 API Routes
 ### 📍 Listings
+```
 #### Method	Endpoint	Description	Auth Required
 GET	/listings	View all listings	No
 GET	/listings/:id	View single listing	No
 POST	/listings	Create new listing	Yes
 PUT	/listings/:id	Update listing	Yes
 DELETE	/listings/:id	Delete listing	Yes
+```
 
 ### 📝 Reviews
+```
 #### Method	Endpoint	Description	Auth Required
 POST	/listings/:id/reviews	Add review	Yes
 DELETE	/listings/:id/reviews/:reviewId	Delete review	Yes
+```
 
 ## Project Structure
 ```
@@ -131,8 +135,9 @@ GuestHeaven/
 ├── package-lock.json        # Dependency lock file
 ├── package.json             # Project metadata and dependencies
 └── schema.js                # Joi validation schemas
+```
 
-## 🤝 Contributing
+## 🤝Contributing
 - Contributions are welcome
 - Fork the repository
 - Create a new branch (git checkout -b feature/YourFeature)
