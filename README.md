@@ -73,16 +73,13 @@ GuestHeaven/
 │   ├── listings.js
 │   ├── reviews.js
 │   └── users.js
-│
 ├── init/                    # Initial data setup scripts
 │   ├── data.js
 │   └── index.js
-│
 ├── models/                  # Mongoose models
 │   ├── listing.js
 │   ├── reviews.js
 │   └── user.js
-│
 ├── public/                  # Static assets
 │   ├── css/
 │   │   ├── rating.css
@@ -90,16 +87,13 @@ GuestHeaven/
 │   ├── js/
 │   │   ├── script.js
 │   │   └── toggle.js
-│
 ├── routes/                  # Express route definitions
 │   ├── listing.js
 │   ├── review.js
 │   └── user.js
-|
 ├── utils/                   # Utility functions
 │   ├── ExpressError.js
 │   └── WrapAsync.js
-│
 ├── views/                   # EJS templates
 │   ├── filters/
 │   │   ├── apartments.ejs
@@ -127,7 +121,6 @@ GuestHeaven/
 │   │   ├── error.ejs
 │   │   ├── home.ejs
 │   │   └── show.ejs
-│
 ├── .gitignore               # Git ignore rules
 ├── README.md                # Project documentation
 ├── imagebbConfig.js         # Image hosting configuration
