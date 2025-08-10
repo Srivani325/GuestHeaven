@@ -29,20 +29,20 @@ GuestHeaven is  a full-stack web application for exploring, creating, editing, a
 - **Other Tools:** dotenv, Express-Session, Connect-Flash, passport( for authentication)
 
 ## Installation
-### 1️⃣ Clone the repository
+#### 1️⃣ Clone the repository
 git clone https://github.com/yourusername/GuestHeaven.git
 cd GuestHeaven
 
-### 2️⃣ Install dependencies
+#### 2️⃣ Install dependencies
 npm install
 
-### 3️⃣ Set up environment variables
+####3️⃣ Set up environment variables
 Create a .env file in the root directory and add:
-IMAGEBB_URL=your_imageBB_api_key
-ATLAS_URL=your_mongodb_connection_string
-SESSION_SECRET=your_session_secret
+- IMAGEBB_URL=your_imageBB_api_key
+- ATLAS_URL=your_mongodb_connection_string
+- SESSION_SECRET=your_session_secret
 
-### 4️⃣ Run the server
+#### 4️⃣ Run the server
 npm start
 
 ## 🖥 Usage
