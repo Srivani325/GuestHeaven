@@ -89,7 +89,7 @@ async function main() {
 app.use((req,res,next)=>{
     res.locals.success = req.flash("success");
     res.locals.error = req.flash("error");
-    res.locals.currUser = isAuthenticated() ? req.user : null;
+    res.locals.currUser = req.isAuthenticated() ? req.user : null;
     next();
 })
 
